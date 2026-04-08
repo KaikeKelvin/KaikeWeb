@@ -1,0 +1,63 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #357cd1;
+}  
+
+.nome {
+    margin-top: 12px;
+}
+
+
+.card {
+    margin: 20px auto;
+}
+
+.list-group-item+.list-group-item {
+    border-top-width: 0;
+    height: 50px;
+}
+
+.list-group-item.active {
+    background-color: #043e94;
+    border-color: #043e94;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.list-group {
+    margin-top: 0;
+}
+a{
+    color: #000;
+}
+.nome {
+    margin-top: 12px;
+    
+    font-size: 28px; 
+   
+    font-weight: bold;
+   
+    font-family: 'Arial', sans-serif; 
+  
+    color: #333; 
+}
+
+.carts{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
